@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  border: 2px solid gray;
+  padding: 10px;
+  background-color: whitesmoke;
+  position: fixed;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  width: 800px;
+  max-width: 100%;
+  text-align: justify;
+  margin: 0% auto;
+  padding: 10px;
+}
+
+main {
+  background-color: gainsboro;
+  width: 100%;
+  padding-top: 90px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+footer {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 100%;
+  border: 2px solid gray;
+  padding: 0px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+
+img.banner_receita {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 100%vw;
+  max-width: 100%;
+}
+
+img.banner_chef {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  width: 100%vh;
+  max-width: 100%;
+}
+
+img.logo_ifood {
+  position: fixed;
+  z-index: 10000000;
+  bottom: 10%;
+  right: 5%;
+  padding: 10px;
+  width: 100%vh;
+  max-width: 100%;
+}
+
+main ul li {
+  width: 800px;
+  max-width: 100%;
+}

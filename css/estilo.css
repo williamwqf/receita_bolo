@@ -65,7 +65,7 @@ img.banner_receita {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 100%vw;
+  width: 100vw;
   max-width: 100%;
 }
 
@@ -73,7 +73,7 @@ img.banner_chef {
   margin: 0 auto;
   text-align: center;
   display: block;
-  width: 100%vh;
+  width: 100vh;
   max-width: 100%;
 }
 
@@ -83,11 +83,37 @@ img.logo_ifood {
   bottom: 10%;
   right: 5%;
   padding: 10px;
-  width: 100%vh;
   max-width: 100%;
 }
 
 main ul li {
   width: 800px;
   max-width: 100%;
+}
+
+@media (min-width: 340px) and (max-width: 768px) {
+  
+  .cabecalho {
+    font-size: 1.4rem;
+  }
+
+  .rodape {
+    font-size: 1.2rem;
+  }
+
+  img.logo_ifood {
+    width: 10vh;
+
+  }
+
+}
+
+
+@media (min-width: 769px){
+  
+  img.logo_ifood {
+    width: 15vh;
+
+  }
+
 }

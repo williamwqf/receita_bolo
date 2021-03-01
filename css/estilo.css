@@ -111,6 +111,14 @@ main ul li {
 
 @media (min-width: 769px){
   
+  img.banner_receita {
+    width: 70vh;
+  }
+
+  img.banner_chef {
+    width: 50vh;
+  }
+
   img.logo_ifood {
     width: 15vh;
 
